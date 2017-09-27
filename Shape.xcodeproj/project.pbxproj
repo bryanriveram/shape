@@ -12,9 +12,16 @@
 		96FAF4F11F7A197800AF922D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FAF4EF1F7A197800AF922D /* Main.storyboard */; };
 		96FAF4F31F7A197800AF922D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FAF4F21F7A197800AF922D /* Assets.xcassets */; };
 		96FAF4F61F7A197800AF922D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FAF4F41F7A197800AF922D /* LaunchScreen.storyboard */; };
+		96FAF4FE1F7A1B0900AF922D /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAF4FD1F7A1B0900AF922D /* ShapeView.swift */; };
+		96FAF5001F7A1EA200AF922D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAF4FF1F7A1EA200AF922D /* SquareView.swift */; };
+		96FAF5021F7A266500AF922D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAF5011F7A266500AF922D /* CircleView.swift */; };
+		96FAF5041F7A2F3A00AF922D /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAF5031F7A2F3A00AF922D /* TriangleView.swift */; };
+		96FAF5061F7A4AD400AF922D /* BinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAF5051F7A4AD400AF922D /* BinView.swift */; };
+		C309D2DEB0E648C6B96CA1B1 /* Pods_Shape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48702BCCCF0F585293FAB5BD /* Pods_Shape.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48702BCCCF0F585293FAB5BD /* Pods_Shape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FAF4E81F7A197800AF922D /* Shape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FAF4EB1F7A197800AF922D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FAF4ED1F7A197800AF922D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		96FAF4F21F7A197800AF922D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96FAF4F51F7A197800AF922D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96FAF4F71F7A197800AF922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FAF4FD1F7A1B0900AF922D /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		96FAF4FF1F7A1EA200AF922D /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		96FAF5011F7A266500AF922D /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		96FAF5031F7A2F3A00AF922D /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		96FAF5051F7A4AD400AF922D /* BinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinView.swift; sourceTree = "<group>"; };
+		E64161EB2CD688634DB231F0 /* Pods-Shape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shape.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shape/Pods-Shape.release.xcconfig"; sourceTree = "<group>"; };
+		EBA69A0D7DD412A8F3FD614C /* Pods-Shape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shape.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shape/Pods-Shape.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C309D2DEB0E648C6B96CA1B1 /* Pods_Shape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09B5CA3A7CBAF4A56732D3EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA69A0D7DD412A8F3FD614C /* Pods-Shape.debug.xcconfig */,
+				E64161EB2CD688634DB231F0 /* Pods-Shape.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		96FAF4DF1F7A197800AF922D = {
 			isa = PBXGroup;
 			children = (
 				96FAF4EA1F7A197800AF922D /* Shape */,
 				96FAF4E91F7A197800AF922D /* Products */,
+				09B5CA3A7CBAF4A56732D3EB /* Pods */,
+				EC5A10F719F44F2F85CACA80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +82,25 @@
 			children = (
 				96FAF4EB1F7A197800AF922D /* AppDelegate.swift */,
 				96FAF4ED1F7A197800AF922D /* ViewController.swift */,
+				96FAF4FD1F7A1B0900AF922D /* ShapeView.swift */,
+				96FAF4FF1F7A1EA200AF922D /* SquareView.swift */,
+				96FAF5011F7A266500AF922D /* CircleView.swift */,
+				96FAF5031F7A2F3A00AF922D /* TriangleView.swift */,
 				96FAF4EF1F7A197800AF922D /* Main.storyboard */,
 				96FAF4F21F7A197800AF922D /* Assets.xcassets */,
 				96FAF4F41F7A197800AF922D /* LaunchScreen.storyboard */,
 				96FAF4F71F7A197800AF922D /* Info.plist */,
+				96FAF5051F7A4AD400AF922D /* BinView.swift */,
 			);
 			path = Shape;
+			sourceTree = "<group>";
+		};
+		EC5A10F719F44F2F85CACA80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48702BCCCF0F585293FAB5BD /* Pods_Shape.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FAF4FA1F7A197800AF922D /* Build configuration list for PBXNativeTarget "Shape" */;
 			buildPhases = (
+				B31790035D23BEFF5FE5EEE8 /* [CP] Check Pods Manifest.lock */,
 				96FAF4E41F7A197800AF922D /* Sources */,
 				96FAF4E51F7A197800AF922D /* Frameworks */,
 				96FAF4E61F7A197800AF922D /* Resources */,
+				B32EE66E7A795AC96AF13083 /* [CP] Embed Pods Frameworks */,
+				C7191900B50C9CF0DDBD0ADC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +173,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B31790035D23BEFF5FE5EEE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B32EE66E7A795AC96AF13083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shape/Pods-Shape-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shape/Pods-Shape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7191900B50C9CF0DDBD0ADC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shape/Pods-Shape-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96FAF4E41F7A197800AF922D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FAF4FE1F7A1B0900AF922D /* ShapeView.swift in Sources */,
+				96FAF5021F7A266500AF922D /* CircleView.swift in Sources */,
 				96FAF4EE1F7A197800AF922D /* ViewController.swift in Sources */,
 				96FAF4EC1F7A197800AF922D /* AppDelegate.swift in Sources */,
+				96FAF5061F7A4AD400AF922D /* BinView.swift in Sources */,
+				96FAF5041F7A2F3A00AF922D /* TriangleView.swift in Sources */,
+				96FAF5001F7A1EA200AF922D /* SquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +361,7 @@
 		};
 		96FAF4FB1F7A197800AF922D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA69A0D7DD412A8F3FD614C /* Pods-Shape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shape/Info.plist;
@@ -272,6 +374,7 @@
 		};
 		96FAF4FC1F7A197800AF922D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64161EB2CD688634DB231F0 /* Pods-Shape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Shape/Info.plist;
@@ -301,6 +404,7 @@
 				96FAF4FC1F7A197800AF922D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
